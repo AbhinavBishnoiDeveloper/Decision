@@ -10,6 +10,8 @@ public class Product implements java.io.Serializable {
 
 	private java.lang.String productName;
 
+	private java.lang.Integer price;
+
 	public Product() {
 	}
 
@@ -21,8 +23,17 @@ public class Product implements java.io.Serializable {
 		this.productName = productName;
 	}
 
-	public Product(java.lang.String productName) {
+	public java.lang.Integer getPrice() {
+		return this.price;
+	}
+
+	public void setPrice(java.lang.Integer price) {
+		this.price = price;
+	}
+
+	public Product(java.lang.String productName, java.lang.Integer price) {
 		this.productName = productName;
+		this.price = price;
 	}
 
 }
