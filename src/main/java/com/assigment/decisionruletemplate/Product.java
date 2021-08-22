@@ -8,32 +8,7 @@ public class Product implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	private java.lang.String productName;
-
-	private java.lang.Character ddd;
-
 	public Product() {
-	}
-
-	public java.lang.String getProductName() {
-		return this.productName;
-	}
-
-	public void setProductName(java.lang.String productName) {
-		this.productName = productName;
-	}
-
-	public java.lang.Character getDdd() {
-		return this.ddd;
-	}
-
-	public void setDdd(java.lang.Character ddd) {
-		this.ddd = ddd;
-	}
-
-	public Product(java.lang.String productName, java.lang.Character ddd) {
-		this.productName = productName;
-		this.ddd = ddd;
 	}
 
 }
