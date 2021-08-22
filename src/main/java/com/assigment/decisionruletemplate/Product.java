@@ -6,12 +6,23 @@ package com.assigment.decisionruletemplate;
 
 public class Product implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Product() {
-    }
+	private java.lang.String rere;
 
+	public Product() {
+	}
 
+	public java.lang.String getRere() {
+		return this.rere;
+	}
 
+	public void setRere(java.lang.String rere) {
+		this.rere = rere;
+	}
+
+	public Product(java.lang.String rere) {
+		this.rere = rere;
+	}
 
 }
