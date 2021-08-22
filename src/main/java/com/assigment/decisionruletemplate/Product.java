@@ -10,6 +10,8 @@ public class Product implements java.io.Serializable {
 
 	private java.lang.String productName;
 
+	private java.lang.Character ddd;
+
 	public Product() {
 	}
 
@@ -21,8 +23,17 @@ public class Product implements java.io.Serializable {
 		this.productName = productName;
 	}
 
-	public Product(java.lang.String productName) {
+	public java.lang.Character getDdd() {
+		return this.ddd;
+	}
+
+	public void setDdd(java.lang.Character ddd) {
+		this.ddd = ddd;
+	}
+
+	public Product(java.lang.String productName, java.lang.Character ddd) {
 		this.productName = productName;
+		this.ddd = ddd;
 	}
 
 }
