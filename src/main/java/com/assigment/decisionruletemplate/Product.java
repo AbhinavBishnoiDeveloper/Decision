@@ -10,6 +10,8 @@ public class Product implements java.io.Serializable {
 
 	private java.lang.String rere;
 
+	private java.lang.Float ffe;
+
 	public Product() {
 	}
 
@@ -21,8 +23,17 @@ public class Product implements java.io.Serializable {
 		this.rere = rere;
 	}
 
-	public Product(java.lang.String rere) {
+	public java.lang.Float getFfe() {
+		return this.ffe;
+	}
+
+	public void setFfe(java.lang.Float ffe) {
+		this.ffe = ffe;
+	}
+
+	public Product(java.lang.String rere, java.lang.Float ffe) {
 		this.rere = rere;
+		this.ffe = ffe;
 	}
 
 }
