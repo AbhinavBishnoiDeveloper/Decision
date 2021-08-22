@@ -1,6 +1,1 @@
-<kmodule xmlns="http://www.drools.org/xsd/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <kbase name="default-base" default="true" eventProcessingMode="stream" equalsBehavior="identity" packages="com.assigment.decisionruletemplate">
-    <ruleTemplate col="1" row="2" template="com/assigment/decisionruletemplate/price-discount.drt" dtable="com/assigment/decisionruletemplate/discount-dtable.csv"/>
-    <ksession name="base-session" type="stateless" default="true" clockType="realtime"/>
-  </kbase>
-</kmodule>
+<kmodule xmlns="http://www.drools.org/xsd/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
