@@ -8,7 +8,21 @@ public class Product implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
+	private java.lang.String productName;
+
 	public Product() {
+	}
+
+	public java.lang.String getProductName() {
+		return this.productName;
+	}
+
+	public void setProductName(java.lang.String productName) {
+		this.productName = productName;
+	}
+
+	public Product(java.lang.String productName) {
+		this.productName = productName;
 	}
 
 }
