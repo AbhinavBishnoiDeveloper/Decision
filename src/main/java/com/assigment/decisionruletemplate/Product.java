@@ -34,7 +34,8 @@ public class Product implements java.io.Serializable {
 	}
 
 	public String toString() {
-		return "productName: " + productName + " , price: " + price;
+		return "productName: " + productName + " , price: " + price
+				+ " , discount: " + discount;
 	}
 
 	public java.lang.Integer getDiscount() {
