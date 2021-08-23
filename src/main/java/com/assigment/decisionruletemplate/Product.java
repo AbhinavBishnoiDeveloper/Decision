@@ -8,32 +8,43 @@ public class Product implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	private java.lang.String rere;
+	private java.lang.String productName;
 
-	private java.lang.Float ffe;
+	private int price;
+
+	private int discount;
 
 	public Product() {
 	}
 
-	public java.lang.String getRere() {
-		return this.rere;
+	public java.lang.String getProductName() {
+		return this.productName;
 	}
 
-	public void setRere(java.lang.String rere) {
-		this.rere = rere;
+	public void setProductName(java.lang.String productName) {
+		this.productName = productName;
 	}
 
-	public java.lang.Float getFfe() {
-		return this.ffe;
+	public int getPrice() {
+		return this.price;
 	}
 
-	public void setFfe(java.lang.Float ffe) {
-		this.ffe = ffe;
+	public void setPrice(int price) {
+		this.price = price;
 	}
 
-	public Product(java.lang.String rere, java.lang.Float ffe) {
-		this.rere = rere;
-		this.ffe = ffe;
+	public int getDiscount() {
+		return this.discount;
+	}
+
+	public void setDiscount(int discount) {
+		this.discount = discount;
+	}
+
+	public Product(java.lang.String productName, int price, int discount) {
+		this.productName = productName;
+		this.price = price;
+		this.discount = discount;
 	}
 
 }
