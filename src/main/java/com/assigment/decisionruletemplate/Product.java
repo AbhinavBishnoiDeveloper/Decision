@@ -41,11 +41,6 @@ public class Product implements java.io.Serializable {
 		this.discount = discount;
 	}
 
-	public String toString() {
-		return "PRODUCT NAME: " + productName + " , PRICE : " + price
-				+ ", DISCOUNT : " + discount;
-	}
-
 	public Product(java.lang.String productName, int price, int discount) {
 		this.productName = productName;
 		this.price = price;
